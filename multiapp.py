@@ -4,11 +4,11 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 #loading saved models
-diabetes_model = pickle.load(open('/Users/darshmac/Documents/Multiple_Disease_ML_Project/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-heart_model = pickle.load(open('/Users/darshmac/Documents/Multiple_Disease_ML_Project/heart_model.sav','rb'))
+heart_model = pickle.load(open('heart_model.sav','rb'))
 
-parkinson_model = pickle.load(open('/Users/darshmac/Documents/Multiple_Disease_ML_Project/parkinson_model.sav', 'rb'))
+parkinson_model = pickle.load(open('parkinson_model.sav', 'rb'))
 
 #sidebar for navigation
 
